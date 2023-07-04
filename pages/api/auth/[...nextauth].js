@@ -17,7 +17,7 @@ if (process.env.VERCEL_ENV === "preview") {
           credentials.username === "fish" &&
           credentials.password === "password"
         ) {
-          return {id: "1", name: "Ralf", email: "YOUR_EMAIL@test.com"};
+          return {id: "1", name: "Ralf", email: "ralf@actyvy.st"};
         } else {
           return null;
         }
